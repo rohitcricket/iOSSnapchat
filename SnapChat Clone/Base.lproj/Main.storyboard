@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sign In View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SignInViewController" customModule="SnapChat_Clone" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Snapchat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ndE-fQ-Y9e">
+                                <fontDescription key="fontDescription" type="system" pointSize="56"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rZf-nz-cf5">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="5od-5i-bdb"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9jg-dw-XPe">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="WDa-I0-iEr"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Cg-qP-liI">
+                                <state key="normal" title="Show Up"/>
+                                <connections>
+                                    <action selector="showUpTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fYX-bW-RDV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rZf-nz-cf5" firstAttribute="top" secondItem="ndE-fQ-Y9e" secondAttribute="bottom" constant="30" id="0lf-GW-dPy"/>
+                            <constraint firstItem="ndE-fQ-Y9e" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Dxr-3N-bxJ"/>
+                            <constraint firstItem="5Cg-qP-liI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fw5-vD-7JU"/>
+                            <constraint firstItem="9jg-dw-XPe" firstAttribute="top" secondItem="rZf-nz-cf5" secondAttribute="bottom" constant="20" id="J5C-6U-hTH"/>
+                            <constraint firstItem="ndE-fQ-Y9e" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="25" id="Qhz-pF-TiT"/>
+                            <constraint firstItem="9jg-dw-XPe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aDs-rB-gc4"/>
+                            <constraint firstItem="rZf-nz-cf5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qfR-gj-dAO"/>
+                            <constraint firstItem="5Cg-qP-liI" firstAttribute="top" secondItem="9jg-dw-XPe" secondAttribute="bottom" constant="25" id="za7-bC-5jO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="rZf-nz-cf5" id="WGm-8S-kzI"/>
+                        <outlet property="passwordTextField" destination="9jg-dw-XPe" id="P5v-d3-1tI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
