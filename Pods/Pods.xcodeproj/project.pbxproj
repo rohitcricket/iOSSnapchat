@@ -10,18 +10,67 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>003FC0358E0A67BA0059D4852B51D1D3</key>
+		<key>01F7C078B7910B530AD9931645BD9005</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>B9A9D9711447BE33C72E15CDBFC58A7C</string>
-			</array>
+			<key>baseConfigurationReference</key>
+			<string>B18FB2121042B9118BE02ADD372F7810</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-SnapChat Clone/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-SnapChat Clone/Pods-SnapChat Clone.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_SnapChat_Clone</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>Release</string>
 		</dict>
 		<key>03F10EA88AB373ECF1F216F26159D846</key>
 		<dict>
@@ -49,6 +98,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>1202C6281A83F9E36654A1B64E3BC106</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-SnapChat Clone-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>1C4D490A81F158DDAB65E7CC8D90A85F</key>
 		<dict>
 			<key>children</key>
@@ -62,18 +124,55 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1F1056AF5F011FF5FDBAA319A947DF9C</key>
+		<key>1EC33DF0CE1703BAE273CD0E5C68550B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-SnapChat Clone-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2566A8A754244E66355ED5F495920F4D</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>60DEE0A7D46D30D73829D5EAD2D27218</string>
+			<string>B11BF4E7F6AF2189E306EC1CE56526DC</string>
 			<key>buildSettings</key>
 			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
 				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-SnapChat Clone/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
 				<string>10.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
 				<key>MACH_O_TYPE</key>
 				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-SnapChat Clone/Pods-SnapChat Clone.modulemap</string>
 				<key>MTL_ENABLE_DEBUG_INFO</key>
 				<string>YES</string>
 				<key>OTHER_LDFLAGS</key>
@@ -83,29 +182,22 @@
 				<key>PODS_ROOT</key>
 				<string>$(SRCROOT)</string>
 				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
+				<string>Pods_SnapChat_Clone</string>
 				<key>SDKROOT</key>
 				<string>iphoneos</string>
 				<key>SKIP_INSTALL</key>
 				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
 			</dict>
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Debug</string>
-		</dict>
-		<key>23EC66F0CF25F5BA82577E9F382131FE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-SnapChat Clone-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
 		<dict>
@@ -121,6 +213,31 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
+		<key>2DD5E70AE2F514D8173ECF6FD47320AF</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>3C1EBD63570E947258741A21B5CF424B</string>
+			<key>buildPhases</key>
+			<array>
+				<string>D7106C8F11326D8ED046694FFA987F09</string>
+				<string>7D00840161833625FFB39CD9724FEBA3</string>
+				<string>4439342043EC3FDF97C4EED80D87368A</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-SnapChat Clone</string>
+			<key>productName</key>
+			<string>Pods-SnapChat Clone</string>
+			<key>productReference</key>
+			<string>B05BD214D7D0992ADE6DCC61ED8BA3B7</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
 		<key>2FABECECE6B18939A36A0C90C111D241</key>
 		<dict>
 			<key>children</key>
@@ -133,6 +250,19 @@
 			<string>FirebaseDatabase</string>
 			<key>path</key>
 			<string>FirebaseDatabase</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>312376075DA7F21BC85339B9984DC424</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -161,6 +291,19 @@
 			<string>Firebase</string>
 			<key>path</key>
 			<string>Firebase</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>37B40CE9CE7C6C62C06AA9F92D2413E2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-SnapChat Clone-umbrella.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -237,25 +380,30 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>3C1EB452677679A13204C988E90D5C78</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3CCA1CC276D87D47462F07987F12DF41</key>
+		<key>3AD62ECD4C62F870BBC7EB0A5FD64619</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Pods-SnapChat Clone.release.xcconfig</string>
+			<string>Pods-SnapChat Clone.modulemap</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3C1EBD63570E947258741A21B5CF424B</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>2566A8A754244E66355ED5F495920F4D</string>
+				<string>01F7C078B7910B530AD9931645BD9005</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
 		</dict>
 		<key>3E4E89230EF59BC255123B67864ACF77</key>
 		<dict>
@@ -270,18 +418,18 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>43A8A04B407AFBAB956BF1971A4A656A</key>
+		<key>4439342043EC3FDF97C4EED80D87368A</key>
 		<dict>
-			<key>children</key>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
 			<array>
-				<string>52FA9C8301EFFC7ACFB283E4274A89A3</string>
+				<string>8911A72701754C2D4DA9BAA679CF7236</string>
 			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>461E182EAF50BF3E14D161601601DFF0</key>
 		<dict>
@@ -308,34 +456,6 @@
 			<string>Frameworks</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52FA9C8301EFFC7ACFB283E4274A89A3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EEFBE3B42A2849D2B1DF8664413E6018</string>
-				<string>9A6A5487F2601ED1B98A14EF0CBBAEBF</string>
-				<string>84BB18C4E21A59573456BF344BD48A73</string>
-				<string>23EC66F0CF25F5BA82577E9F382131FE</string>
-				<string>94F16CB5E22FB3919F86E0C33E669B96</string>
-				<string>60DEE0A7D46D30D73829D5EAD2D27218</string>
-				<string>3CCA1CC276D87D47462F07987F12DF41</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-SnapChat Clone</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-SnapChat Clone</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>56C6640BC316A78AC911A26B1A6E5DC3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84BB18C4E21A59573456BF344BD48A73</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>56DCD628FD16E5E16E59FA494B4D75AA</key>
 		<dict>
@@ -365,16 +485,16 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>60DEE0A7D46D30D73829D5EAD2D27218</key>
+		<key>5F17B21FEA36A8A2197303D2B5DA546C</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>BE20237B0E435A60B0242E23FEA1666C</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-SnapChat Clone.debug.xcconfig</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -404,18 +524,18 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6D2C9A84833247D319EBD7DC67E48FF6</key>
+		<key>6EFD17055C05B133CF382177AEA58827</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
+			<key>children</key>
 			<array>
-				<string>56C6640BC316A78AC911A26B1A6E5DC3</string>
+				<string>B05BD214D7D0992ADE6DCC61ED8BA3B7</string>
 			</array>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>71C74BEBF58592B916A9DCF666828279</key>
 		<dict>
@@ -456,6 +576,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>7D00840161833625FFB39CD9724FEBA3</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>E03209EB2D829B0A5F17309684A30646</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
 		<key>7DB346D0F39D3F0E887471402A8071AB</key>
 		<dict>
 			<key>children</key>
@@ -463,8 +596,8 @@
 				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
 				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
 				<string>9060B306DA2FFF9E9431F331F6716F6E</string>
-				<string>003FC0358E0A67BA0059D4852B51D1D3</string>
-				<string>43A8A04B407AFBAB956BF1971A4A656A</string>
+				<string>6EFD17055C05B133CF382177AEA58827</string>
+				<string>5F17B21FEA36A8A2197303D2B5DA546C</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -497,19 +630,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>84BB18C4E21A59573456BF344BD48A73</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-SnapChat Clone-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>853A7225D29401F1913C189FFE1F2832</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -524,6 +644,20 @@
 			<string>Sources/FIRInstanceID.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8911A72701754C2D4DA9BAA679CF7236</key>
+		<dict>
+			<key>fileRef</key>
+			<string>37B40CE9CE7C6C62C06AA9F92D2413E2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>9060B306DA2FFF9E9431F331F6716F6E</key>
 		<dict>
@@ -545,56 +679,6 @@
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>94F16CB5E22FB3919F86E0C33E669B96</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-SnapChat Clone-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>99F9540FBA9252F2CC444A31BBE2EC53</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>F9179D94B8BCD8D602E5192FABEB4EAD</string>
-			<key>buildPhases</key>
-			<array>
-				<string>6D2C9A84833247D319EBD7DC67E48FF6</string>
-				<string>C56D253C4D167DB9CB889B469FE810A1</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-SnapChat Clone</string>
-			<key>productName</key>
-			<string>Pods-SnapChat Clone</string>
-			<key>productReference</key>
-			<string>B9A9D9711447BE33C72E15CDBFC58A7C</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>9A6A5487F2601ED1B98A14EF0CBBAEBF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-SnapChat Clone-acknowledgements.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -643,6 +727,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>A09E17113383C15411AA346D6EE88095</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-SnapChat Clone-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>A1A30BEF334710E8C6ABEC7DE75E9B61</key>
 		<dict>
 			<key>children</key>
@@ -656,38 +753,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A4D4B7088E9D1FEFECDC55C05BE31756</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>3CCA1CC276D87D47462F07987F12DF41</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
 		<key>A9CF4FC6CB26C05886D6FD55FF95A4EA</key>
 		<dict>
 			<key>children</key>
@@ -700,6 +765,47 @@
 			<string>GoogleSymbolUtilities</string>
 			<key>path</key>
 			<string>GoogleSymbolUtilities</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B05BD214D7D0992ADE6DCC61ED8BA3B7</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods_SnapChat_Clone.framework</string>
+			<key>path</key>
+			<string>Pods_SnapChat_Clone.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>B11BF4E7F6AF2189E306EC1CE56526DC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-SnapChat Clone.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B18FB2121042B9118BE02ADD372F7810</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-SnapChat Clone.release.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -731,20 +837,12 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B9A9D9711447BE33C72E15CDBFC58A7C</key>
+		<key>B753A1D87A50B3B4111618E0320FBD3D</key>
 		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
+			<key>fileRef</key>
+			<string>D530BBAFD2BA27898156DFE6BEFDAA56</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-SnapChat Clone.a</string>
-			<key>path</key>
-			<string>libPods-SnapChat Clone.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
 		<dict>
@@ -776,6 +874,30 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>BE20237B0E435A60B0242E23FEA1666C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>312376075DA7F21BC85339B9984DC424</string>
+				<string>3AD62ECD4C62F870BBC7EB0A5FD64619</string>
+				<string>1EC33DF0CE1703BAE273CD0E5C68550B</string>
+				<string>A09E17113383C15411AA346D6EE88095</string>
+				<string>D530BBAFD2BA27898156DFE6BEFDAA56</string>
+				<string>1202C6281A83F9E36654A1B64E3BC106</string>
+				<string>FDFFB041202A6D94E42EF6B2AE78C0E7</string>
+				<string>37B40CE9CE7C6C62C06AA9F92D2413E2</string>
+				<string>B11BF4E7F6AF2189E306EC1CE56526DC</string>
+				<string>B18FB2121042B9118BE02ADD372F7810</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-SnapChat Clone</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-SnapChat Clone</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>BF6342C8B29F4CEEA088EFF7AB4DE362</key>
 		<dict>
 			<key>children</key>
@@ -788,19 +910,6 @@
 			<string>iOS</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C56D253C4D167DB9CB889B469FE810A1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3C1EB452677679A13204C988E90D5C78</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
 		</dict>
 		<key>C86FC21F4C24884026C23771428DA03C</key>
 		<dict>
@@ -857,7 +966,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>003FC0358E0A67BA0059D4852B51D1D3</string>
+			<string>6EFD17055C05B133CF382177AEA58827</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -866,8 +975,21 @@
 			<string></string>
 			<key>targets</key>
 			<array>
-				<string>99F9540FBA9252F2CC444A31BBE2EC53</string>
+				<string>2DD5E70AE2F514D8173ECF6FD47320AF</string>
 			</array>
+		</dict>
+		<key>D530BBAFD2BA27898156DFE6BEFDAA56</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-SnapChat Clone-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D56ED780ADBC5788CA821514FBBCAAED</key>
 		<dict>
@@ -896,6 +1018,19 @@
 			<string>FirebaseAuth</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D7106C8F11326D8ED046694FFA987F09</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>B753A1D87A50B3B4111618E0320FBD3D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>D9F8BB89EC1E030F12204A51D039AFD4</key>
 		<dict>
@@ -938,18 +1073,12 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>EEFBE3B42A2849D2B1DF8664413E6018</key>
+		<key>E03209EB2D829B0A5F17309684A30646</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>3E4E89230EF59BC255123B67864ACF77</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-SnapChat Clone-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>EF5A7CC3FE88626C6319416821DD26BC</key>
 		<dict>
@@ -1032,19 +1161,18 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>F9179D94B8BCD8D602E5192FABEB4EAD</key>
+		<key>FDFFB041202A6D94E42EF6B2AE78C0E7</key>
 		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>1F1056AF5F011FF5FDBAA319A947DF9C</string>
-				<string>A4D4B7088E9D1FEFECDC55C05BE31756</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-SnapChat Clone-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>FEFA282458228D518E048E72E89AF37C</key>
 		<dict>
