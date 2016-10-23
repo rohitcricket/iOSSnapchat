@@ -26,9 +26,13 @@ class SelectUserViewController: UIViewController, UITableViewDelegate, UITableVi
         FIRDatabase.database().reference().child("users").observe(FIRDataEventType.childAdded, with: { (snapshot) in
             print(snapshot)
             
-            
             let user = User()
-            user.email = snapshot.value!["email"] as! String
+            
+            // http://stackoverflow.com/questions/39480150/type-any-has-no-subscript-members-after-updating-to-swift-3
+            
+            let snapshotValue = snapshot.value as? NSDictionary
+            user.email = (snapshotValue?["email"] as? String)!
+            
             user.uid = snapshot.key
             
             self.users.append(user)
