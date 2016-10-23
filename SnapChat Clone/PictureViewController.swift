@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import Firebase
 
-class PictureViewController: UIPageViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class PictureViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     
     @IBOutlet weak var imageView: UIImageView!
@@ -24,11 +25,11 @@ class PictureViewController: UIPageViewController, UIImagePickerControllerDelega
         imagePicker.delegate = self
     }
     
+    
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         let image = info[UIImagePickerControllerOriginalImage] as! UIImage
         
         imageView.image = image
-        
         imagePicker.dismiss(animated: true, completion: nil)
     }
 
@@ -42,8 +43,31 @@ class PictureViewController: UIPageViewController, UIImagePickerControllerDelega
     }
     
     @IBAction func nextTapped(_ sender: AnyObject) {
+        
+        nextButton.isEnabled = false
+        
+        let imagesFolder = FIRStorage.storage().reference().child("images")
+        
+        let imageData = UIImageJPEGRepresentation(imageView.image!, 0.1)!
+        
+        
+        imagesFolder.child("\(NSUUID().uuidString).jpg").put(imageData, metadata: nil, completion: {(metadata, error) in
+            print("We tried to load")
+            if error != nil {
+                print("We've an error:\(error)")
+            } else {
+                
+                print(metadata?.downloadURL())
+                
+                self.performSegue(withIdentifier: "selectUsersegue", sender: nil)
+            }
+        })
+        
+        
     }
     
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+
+    }
 
 }
