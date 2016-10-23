@@ -29,7 +29,7 @@ class SelectUserViewController: UIViewController, UITableViewDelegate, UITableVi
             
             let user = User()
             user.email = snapshot.value!["email"] as! String
-            user.uid = snapshot.value!.key!
+            user.uid = snapshot.key
             
             self.users.append(user)
             
